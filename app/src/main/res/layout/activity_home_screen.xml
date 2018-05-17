@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:background="@drawable/check_last2">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What kind of user are you?"/>
+
+        <Button
+            android:id="@+id/btn_admin"
+            android:layout_marginTop="80dp"
+            android:text="Admin"
+            android:background="@drawable/custom_button"
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"/>
+
+
+        <Button
+            android:id="@+id/btn_lecturer"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button"
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:text="Lecturer"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btn_student"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button"
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:text="Student"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
