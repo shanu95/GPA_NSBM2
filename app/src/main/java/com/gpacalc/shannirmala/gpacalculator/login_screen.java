@@ -6,21 +6,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class signup_screen extends AppCompatActivity {
+public class login_screen extends AppCompatActivity {
 
-    TextView login;
+    TextView create_one;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup_screen);
+        setContentView(R.layout.activity_login_screen);
 
-        login = (TextView)findViewById(R.id.link_login);
+        create_one = (TextView)findViewById(R.id.link_signup);
 
-        login.setOnClickListener(new View.OnClickListener() {
+        create_one.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(signup_screen.this, login_screen.class);
+                Intent intent = new Intent(login_screen.this, signup_screen.class);
                 startActivity(intent);
             }
         });

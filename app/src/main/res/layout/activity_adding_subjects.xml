@@ -28,6 +28,7 @@
             <EditText
                 android:id="@+id/subject"
                 android:textSize="15sp"
+                android:inputType="text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Enter your subject here"/>
@@ -35,11 +36,13 @@
                 android:id="@+id/credits"
                 android:layout_marginLeft="5dp"
                 android:textSize="15sp"
+                android:inputType="number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Credits"/>
 
             <Button
+                android:layout_marginTop="10dp"
                 android:layout_marginLeft="5dp"
                 android:textAllCaps="false"
                 android:background="@drawable/custom_button"
@@ -52,78 +55,69 @@
 
         </LinearLayout>
 
-        <!--<LinearLayout-->
-            <!--android:layout_marginTop="25dp"-->
-            <!--android:gravity="center"-->
-            <!--android:orientation="horizontal"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content">-->
-            <!--<LinearLayout-->
-
-                <!--android:gravity="left"-->
-                <!--android:orientation="vertical"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content">-->
-
-                <!--<TextView-->
-                    <!--android:gravity="center"-->
-                    <!--android:textStyle="italic"-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="Your Subjects"/>-->
-
-                <!--<TextView-->
-                    <!--android:layout_marginTop="10dp"-->
-                    <!--android:textStyle="italic"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="Mobile Application Development"/>-->
-                <!--<TextView-->
-                    <!--android:textStyle="italic"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="System Analysis and Design"/>-->
 
 
-            <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
 
-            <!--<LinearLayout-->
-                <!--android:layout_marginLeft="10dp"-->
-                <!--android:gravity="center"-->
-                <!--android:orientation="vertical"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content">-->
+                android:gravity="left"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-                <!--<TextView-->
-                    <!--android:textStyle="italic"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="Subject Credits"/>-->
+                <TextView
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your Subjects"/>
 
-                <!--<TextView-->
-                    <!--android:layout_marginTop="10dp"-->
-                    <!--android:textStyle="italic"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="5"/>-->
-                <!--<TextView-->
-                    <!--android:textStyle="italic"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="4"/>-->
+                <TextView
+                    android:id="@+id/subjects"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
 
 
-            <!--</LinearLayout>-->
+            </LinearLayout>
 
-        <!--</LinearLayout>-->
+            <LinearLayout
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subject Credits"/>
+
+                <TextView
+                    android:id="@+id/subject_credits"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
 
 
 
 
     </LinearLayout>
-
-
-
 
 
 </RelativeLayout>

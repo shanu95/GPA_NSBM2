@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".signup_screen">
+        <activity android:name=".home_screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".adding_subjects" />
-        <activity android:name=".home_screen"></activity>
+        <activity android:name=".login_screen" />
+        <activity android:name=".signup_screen"></activity>
     </application>
 
 </manifest>
