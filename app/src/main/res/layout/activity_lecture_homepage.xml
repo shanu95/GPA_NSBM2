@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:context=".lecture_homepage"
+    android:background="@drawable/check_last2">
+
+
+
+    <TextView
+        android:text="Your Home Page.."
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/gpa1" />
+
+    <LinearLayout
+        android:id="@+id/smbutton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingRight="20dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="Add Subject"
+                android:textAllCaps="false"
+                android:background="@drawable/custom_button"
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:id="@+id/sm1" />
+
+            <Button
+
+                android:text="Add Student"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_button"
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:id="@+id/sm3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="120dp"
+            android:paddingLeft="20dp"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+
+                android:text="Edit Subjects"
+                android:textAllCaps="false"
+                android:background="@drawable/custom_button"
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:id="@+id/sm2" />
+
+            <Button
+
+                android:text="View Student"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_button"
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:id="@+id/sm4" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
