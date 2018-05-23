@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".adding_subjects" />
         <activity android:name=".login_screen" />
-        <activity android:name=".signup_screen"></activity>
+        <activity android:name=".signup_screen" />
+        <activity android:name=".student_homepage"></activity>
     </application>
 
 </manifest>
