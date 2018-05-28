@@ -20,7 +20,10 @@
         <activity android:name=".login_screen" />
         <activity android:name=".signup_screen" />
         <activity android:name=".student_homepage" />
-        <activity android:name=".lecture_homepage"></activity>
+        <activity android:name=".lecture_homepage" />
+        <activity android:name=".admin_homepage" />
+        <activity android:name=".add_subject" />
+        <activity android:name=".edit_subjects"></activity>
     </application>
 
 </manifest>
